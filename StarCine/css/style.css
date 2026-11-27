@@ -64,3 +64,48 @@ img {
 .menu a.active {
   background-color: #d90b0b;
 }
+
+.btn {
+  display: inline-block;
+  background-color: #d90b0b;
+  color: white;
+  border: none;
+  padding: 10 px 20px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ff2222;
+}
+
+.btn.small {
+  padding: 6px 10px;
+  font-size: 13px;
+}
+
+.btn.full {
+  width: 100%;
+}
+
+.title {
+  padding: 20px 30px;
+  font-size: 28px;
+}
+
+.content {
+  padding: 0 30px 30px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  font-size: 14px;
+}
+
+.footer a {
+  margin-left: 10px;
+}
