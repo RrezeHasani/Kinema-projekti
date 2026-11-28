@@ -109,3 +109,30 @@ img {
 .footer a {
   margin-left: 10px;
 }
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 15px;
+  }
+
+  .menu {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .title {
+    padding: 15px;
+    font-size: 22px;
+  }
+  .content {
+    padding: 0 15px 20px;
+  }
+
+  .footer {
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+  }
+}
